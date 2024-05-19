@@ -1,7 +1,11 @@
 import React, { useState } from 'react';
 import { useLocalStorage } from './hooks/useLocalStorage';
 
-export default function SetterComponent() {
+interface Props {
+  setSelectedKey: (key: string | null) => void;
+}
+
+export default function SetterComponent({ setSelectedKey }: Props) {
   const [key, setKey] = useState('');
   const [value, setValue] = useState('');
   const { setItem } = useLocalStorage();
@@ -16,6 +20,10 @@ export default function SetterComponent() {
 
   const handleSubmit = () => {
     setItem(key, value);
+    setSelectedKey(key);
+
+    setKey('');
+    setValue('');
   };
 
   return (
