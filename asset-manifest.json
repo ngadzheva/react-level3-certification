@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/react-level3-certification/static/css/main.46096ef2.css",
-    "main.js": "/react-level3-certification/static/js/main.0c5e341f.js",
+    "main.js": "/react-level3-certification/static/js/main.f606826d.js",
     "static/js/453.c63454e5.chunk.js": "/react-level3-certification/static/js/453.c63454e5.chunk.js",
     "index.html": "/react-level3-certification/index.html",
     "main.46096ef2.css.map": "/react-level3-certification/static/css/main.46096ef2.css.map",
-    "main.0c5e341f.js.map": "/react-level3-certification/static/js/main.0c5e341f.js.map",
+    "main.f606826d.js.map": "/react-level3-certification/static/js/main.f606826d.js.map",
     "453.c63454e5.chunk.js.map": "/react-level3-certification/static/js/453.c63454e5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.46096ef2.css",
-    "static/js/main.0c5e341f.js"
+    "static/js/main.f606826d.js"
   ]
 }
