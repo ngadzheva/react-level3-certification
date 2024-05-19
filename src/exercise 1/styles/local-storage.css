@@ -1,0 +1,38 @@
+input {
+    background-color: #343a50;
+    color: white;
+    border: none;
+    width: 250px;
+    height: 20px;
+    padding: 10px;
+    border-bottom: 3px solid #eb4c39;
+    border-right: 3px solid #eb4c39;
+}
+
+input + button {
+    width: 100px;
+    height: 43px;
+    padding: 10px;
+    background-color: #343a50;
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    border-bottom: 3px solid #343a50;
+    margin-bottom: 15px;
+}
+
+input + button:hover {
+    cursor: pointer;
+    background-color: #eb4c39;
+    border-bottom: 3px solid #eb4c39;
+}
+
+label {
+    margin-right: 15px;
+}
+
+select {
+    border: 2px solid #eb4c39;
+    border-radius: 10px;
+    padding: 10px;
+}
