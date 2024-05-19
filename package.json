@@ -1,7 +1,8 @@
 {
   "name": "react-level3-certification",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "homepage": "https://ngadzheva.github.io/react-level3-certification/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
